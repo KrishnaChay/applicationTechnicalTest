@@ -1,9 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="4.933">
-<testcase classname="User login functionality" name="To verify user able to login successfully" time="4.806">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="20.687">
+<testcase classname="User login functionality" name="To verify user able to login successfully" time="6.585">
 <system-out><![CDATA[Given Launch browser and open the website...................................passed
 When user enters login details 'test@qa-experience.com' ,'Password1'........passed
 And click on submit option..................................................passed
 Then user should get success message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login functionality" name="To verify user able to login successfully 2" time="2.811">
+<system-out><![CDATA[Given Launch browser and open the website...................................passed
+When user enters login details 'test@test.com' ,'1111111111111111'..........passed
+And click on submit option..................................................passed
+Then user should get success message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login functionality" name="To verify user able to login successfully 3" time="2.799">
+<system-out><![CDATA[Given Launch browser and open the website...................................passed
+When user enters login details 'test@qa-experience.com' ,'12345678'.........passed
+And click on submit option..................................................passed
+Then user should get success message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login functionality" name="To verify error message is displayed for invalid email address and password" time="2.836">
+<system-out><![CDATA[Given Launch browser and open the website...................................passed
+When user enters login details 'test@qa-experience' ,'Pass'.................passed
+And click on submit option..................................................passed
+Then verify the error message is displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login functionality" name="To verify error message is displayed for invalid email address and password 2" time="2.755">
+<system-out><![CDATA[Given Launch browser and open the website...................................passed
+When user enters login details 'test' ,'password123456789'..................passed
+And click on submit option..................................................passed
+Then verify the error message is displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User login functionality" name="To verify error message is displayed for invalid email address and password 3" time="2.68">
+<system-out><![CDATA[Given Launch browser and open the website...................................passed
+When user enters login details 'a@test.com' ,'11111111111111111'............passed
+And click on submit option..................................................passed
+Then verify the error message is displayed..................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

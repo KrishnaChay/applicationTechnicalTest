@@ -25,6 +25,10 @@ public class LoginPage extends Base {
         return driver.findElement(By.xpath("//div[@class='logged-in__success']"));
 
     }
+    public WebElement errorText() {
+        return driver.findElement(By.xpath("//div[@class='form-field__error']"));
+
+    }
 
 
 }

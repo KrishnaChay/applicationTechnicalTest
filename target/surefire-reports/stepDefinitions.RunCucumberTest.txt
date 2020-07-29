@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: stepDefinitions.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.606 s - in stepDefinitions.RunCucumberTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.507 s - in stepDefinitions.RunCucumberTest

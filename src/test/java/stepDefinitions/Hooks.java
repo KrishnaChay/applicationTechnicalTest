@@ -21,13 +21,13 @@ public class Hooks extends Base {
     public void endTest(Scenario scenario) {
         if (scenario.isFailed()) {
             try {
-                scenario.attach(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png", "name");
+                scenario.attach(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png", "Screenshot");
             } catch (WebDriverException e) {
                 e.printStackTrace();
             }
         } else {
             try {
-                scenario.attach(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png", "name");
+                scenario.attach(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png", "Screenshot");
             } catch (Exception e) {
                 e.printStackTrace();
             }

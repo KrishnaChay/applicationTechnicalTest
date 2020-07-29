@@ -42,5 +42,9 @@ public class LoginPageSteps {
         Assert.assertEquals("Successfully logged in!", loginpage.successText().getText());
     }
 
+    @Then("verify the error message is displayed")
+    public void verifyTheErrorMessageIsDisplayed() {
+        Assert.assertEquals("Error message", loginpage.errorText().getText());
+    }
 }
 
