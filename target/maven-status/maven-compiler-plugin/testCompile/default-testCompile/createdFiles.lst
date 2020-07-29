@@ -1,0 +1,3 @@
+stepDefinitions/RunCucumberTest.class
+stepDefinitions/LoginPageSteps.class
+stepDefinitions/Hooks.class
