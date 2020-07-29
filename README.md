@@ -1,5 +1,8 @@
 # applicationTechnicalTest
-This framework consists of  
+**This project  uses the Cucumber-Junit framework where all configurations are carried out(Creating feature files, running test cases, taking screenshot of successful login, generating reports).
+Project can be cloned using : https://github.com/devikaadabala/applicationTechnicalTest.git**
+
+This framework consists of below tools  
 
     Cucumber 
     Selenium
@@ -8,5 +11,5 @@ This framework consists of
     Junit
     Log4j
     
- command to run "mvn clean test"   
+ command to run tests "mvn clean test"   
  
